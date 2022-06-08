@@ -1,13 +1,10 @@
-
 good_driving_record = true
 is_over_25 = false
 
-
 if good_driving_record == true && is_over_25 == true
-    puts " You get a discount! Your prefrontal cortex is fully developed."
+    puts "Great! You get a discount for being older & have a fully developed prefrontal cortex!"
 elsif good_driving_record == true || is_over_25 == true
-    puts " You have to pay full price."
+    puts "You must pay full price."
 elsif good_driving_record != true && is_over_25 != true
-    puts " You have to have someone else sign up for this rental, sucker!"
-
+    puts "Someone else must obtain this rental, sorry!"
 end
