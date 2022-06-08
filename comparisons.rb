@@ -22,24 +22,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+puts "Is number_teachers less than number_students?" , number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+puts "Is the number_teachers equal to the number_students?" , number_teachers == number_students
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+puts "Is the number_teachers not equal to the number_students?" , number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts "Is the number_students >= 20" , number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts "Is the number_students >= 21" , number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts "Is the number_students <= 20" , number_students <= 21
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts "Is the number_students <= 21" , number_students <= 21
 # this should print: true
 
 
@@ -53,21 +60,28 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: This line of code compares the Integers 4 & 9 and will evaluate to true.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: These 2 lines of code will assign a variable called books to the Integer 3.
+# It will then evaluate to false because it will compare 4 to the item inside the container
+# called books & find that statement 4 < 3 is false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO:  These 3 lines of code will assign two variables. Friends is assigned to the Integer 6
+# and siblings is assigned to the Integer 2. On the third line the code will compare the values
+# assigned to friends and siblings so 6 < 2 which is false. The code will evaluate to false.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: These 3 lines of code will assign two variables. attendees is assigned to the Integer 9
+# and eals is assigned to the Integer 8. On the third line the code will try to see
+# if the values assigned to attendees & meals DON'T equal each other. The code will evaluate to true
+# since 8 and 9 indeed do not equal each other.
 
 
 #-------------------
